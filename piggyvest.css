@@ -1,0 +1,392 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f7f8;
+}
+.container {
+  background-color: white;
+  padding: 190xp;
+  border: 300px;
+  padding-bottom: 30px;
+}
+ul {
+  display: flex;
+  margin-left: 3opx;
+}
+ul li {
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+nav {
+  display: flex;
+  /* position: fixed; */
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar-logo {
+  margin-top: 15px;
+}
+.button-holder {
+  margin-top: 20px;
+  margin-left: 300px;
+  display: flex;
+}
+.sign-in {
+  padding: 10px;
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  border-radius: 6px;
+  border-color: black;
+}
+.account {
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  border-radius: 6px;
+  border-color: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  /* margin-top: 130px; */
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 20px;
+}
+.iphone {
+  padding: 10px;
+  width: 180px;
+  height: 40px;
+  background-color: black;
+  border-radius: 6px;
+  border-color: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.googleplay {
+  padding: 10px;
+  width: 180px;
+  height: 40px;
+  background-color: black;
+  border-radius: 6px;
+  border-color: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.hero-container {
+  display: flex;
+  margin-top: 100px;
+}
+.hero-img {
+  margin-right: 300px;
+  margin-top: 130px;
+}
+.icon {
+  background-color: white;
+  border-radius: 50px;
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.security-container {
+  display: flex;
+}
+.bi-lock {
+  margin-top: 27px;
+}
+h4 {
+  /* margin-bottom: 450px; */
+}
+.bi-arrow-return-right {
+  /* margin-topb: 10px; */
+}
+.savings {
+  margin-top: 140px;
+  margin-left: 90px;
+  display: flex;
+}
+.automated {
+  margin-left: 150px;
+  border: 300p;
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  padding-left: 30px;
+}
+.save :hover {
+  background-color: blue;
+  color: white;
+}
+.save h1 :hover{
+  
+}
+h5 {
+  margin-top: 100px;
+}
+
+.automated h1 {
+  font-size: 50px;
+  color: blue;
+}
+.automated  :hover{
+  color: white;
+}
+.fixed-saving {
+  display: flex;
+  margin-top: 140px;
+  margin-left: 180px;
+  margin: 10px;
+}
+.fixed-saved {
+  margin-right: 150px;
+  border: 300p;
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding-left: 30px;
+  margin: 10px;
+}
+.goalsaving {
+  margin-left: 150px;
+  border: 300p;
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding-left: 30px;
+}
+.fixed-saved:hover {
+  background-color:  #93c8ff;
+  color: white;
+}
+.goalsaving:hover {
+  background-color: #069b40;
+  color: white;
+}
+.goall:hover {
+  color: white;
+}
+.goal :hover {
+  background-color: #069b40;
+  color: white;
+}
+.fixed-saved h1 {
+  font-size: 50px;
+  color: #93c8ff;
+}
+.goalsaving h1 {
+  font-size: 40px;
+  color: greenyellow;
+}
+.goal h1 : {
+  color: white;
+}
+.fixedmoney {
+  display: flex;
+  margin-top: 140px;
+  margin-left: 180px;
+  margin: 10px;
+}
+/* .fixednaira {
+  /* margin-right: 150px;
+  border: 300p;
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding-left: 30px;
+  margin: 10px; */
+} */
+/* .dollar {
+  /* margin-left: 150px;
+  border: 300p;
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding-left: 30px;
+  color: black; */
+} */
+/* .fixedmoney :hover {
+  background-color: #e5288e;
+} */
+/* .dollar :hover {
+  background-color: black;
+  color: white;
+} */
+.container3 {
+  width: 1500px;
+  height: 800px;
+  background-color: white;
+  color: black;
+  /* justify-content: center; */
+}
+.container3 h1 {
+  font-size: 45px;
+  margin-left: 380px;
+}
+.container3 p {
+  font-size: 20px;
+  margin-left: 350px;
+  margin-bottom: 50px;
+}
+.purplecontainer {
+  display: flex;
+  background-color: #7913e5;
+  color: white;
+  height: 500px;
+  width: 1100px;
+  margin: 50px;
+  padding: 60px;
+  border-radius: 30px;
+}
+.puplecontainerimg {
+  margin-left: 250px;
+}
+
+.purple h2 {
+  font-size: 25px;
+}
+.purple p {
+  font-size: 16px;
+}
+.saverofthemonth h1 {
+  margin-top: 10px;
+  margin: 8px;
+  margin-left: 380px;
+}
+.iframebox {
+  margin-left: 150px;
+  justify-content: center;
+  background-color: white;
+  height: 400px;
+  border-radius: 30px;
+  width: 910px;
+}
+iframe {
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.containerstorie {
+  display: flex;
+  margin: 20px;
+  margin-top: 40px;
+}
+.storietime h1 {
+  margin-left: 30px;
+  font-size: 38px;
+  margin-top: 180px;
+}
+.downloadss {
+  margin-right: 150px;
+}
+.iphones {
+  background-color: white;
+  padding: 10px;
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  border-color: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  margin-top: 30px;
+}
+.googleplays {
+  background-color: white;
+  padding: 10px;
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+  border-color: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  margin-top: 30px;
+}
+.sponsor {
+  display: flex;
+}
+.guardian {
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.techcrunch {
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.pymnts {
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.fastcompany {
+  margin-left: 30px;
+}
+.cio {
+  margin-left: 30px;
+}
+.fixedmonney {
+  display: flex;
+}
+.dollarr {
+  margin-left: 150px;
+  border: 300p;
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding-left: 30px;
+  color: black;
+}
+.fixednaria{
+    margin-right: 150px;
+  border: 300p;
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  padding-left: 30px;
+  margin: 10px;
+}
+.fixednaria:hover {
+  background-color: #e5288e;
+  color: white;
+}
+.dollarr:hover {
+  background-color: black;
+  color: white;
+}
